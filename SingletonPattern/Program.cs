@@ -10,6 +10,10 @@ namespace SingletonPattern
     {
         static void Main(string[] args)
         {
+            PersonManager personManager1 = PersonManager.GetPersonManager();
+            PersonManager personManager2 = PersonManager.GetPersonManager();
+            personManager1.Say();
+            personManager2.Say();
         }
     }
 }
