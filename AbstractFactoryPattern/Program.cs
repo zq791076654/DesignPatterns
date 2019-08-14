@@ -18,6 +18,14 @@ namespace AbstractFactoryPattern
             scFactory.CreateYaBo();
             scFactory.CreateYaJia();
 
+            DeviceFactory americanFactory = new AmericanFactory();
+            americanFactory.CreateComputer();
+            americanFactory.CreatePhone();
+
+            DeviceFactory chinaFactory = new ChinaFactory();
+            chinaFactory.CreateComputer();
+            chinaFactory.CreatePhone();
+
             Console.ReadKey();
         }
     }

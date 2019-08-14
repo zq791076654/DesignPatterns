@@ -44,7 +44,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Factory1.cs" />
+    <Compile Include="Factory2.cs" />
     <Compile Include="Product1.cs" />
+    <Compile Include="Product2.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
